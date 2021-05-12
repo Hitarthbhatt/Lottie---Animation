@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC2F74C5264B5E610099610B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2F74C4264B5E610099610B /* AppDelegate.swift */; };
+		BC2F74C7264B5E610099610B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2F74C6264B5E610099610B /* SceneDelegate.swift */; };
+		BC2F74C9264B5E610099610B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2F74C8264B5E610099610B /* ContentView.swift */; };
+		BC2F74CB264B5E630099610B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC2F74CA264B5E630099610B /* Assets.xcassets */; };
+		BC2F74CE264B5E630099610B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC2F74CD264B5E630099610B /* Preview Assets.xcassets */; };
+		BC2F74D1264B5E630099610B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC2F74CF264B5E630099610B /* LaunchScreen.storyboard */; };
+		BC2F74F0264B5E830099610B /* Sizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2F74DA264B5E830099610B /* Sizes.swift */; };
+		BC2F74F1264B5E830099610B /* LottieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2F74DC264B5E830099610B /* LottieController.swift */; };
+		BC2F74F2264B5E830099610B /* ColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2F74DE264B5E830099610B /* ColorExt.swift */; };
+		BC2F74F3264B5E830099610B /* NotificationExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2F74DF264B5E830099610B /* NotificationExt.swift */; };
+		BC2F74F4264B5E830099610B /* complete.json in Resources */ = {isa = PBXBuildFile; fileRef = BC2F74E1264B5E830099610B /* complete.json */; };
+		BC2F74F5264B5E830099610B /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2F74E4264B5E830099610B /* LoginButton.swift */; };
+		BC2F74F6264B5E830099610B /* SmallButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2F74E5264B5E830099610B /* SmallButton.swift */; };
+		BC2F74F7264B5E830099610B /* ListBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2F74E7264B5E830099610B /* ListBlockView.swift */; };
+		BC2F74F8264B5E830099610B /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2F74E8264B5E830099610B /* NavBar.swift */; };
+		BC2F74F9264B5E830099610B /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2F74EA264B5E830099610B /* Users.swift */; };
+		BC2F74FA264B5E830099610B /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2F74EC264B5E830099610B /* HomeScreen.swift */; };
+		BC2F74FB264B5E830099610B /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2F74ED264B5E830099610B /* LoginScreen.swift */; };
+		BC2F74FC264B5E830099610B /* UsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2F74EF264B5E830099610B /* UsersViewModel.swift */; };
+		BC2F7501264B5F5C0099610B /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = BC2F7500264B5F5C0099610B /* Lottie */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC2F74C1264B5E610099610B /* Lottie - Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lottie - Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2F74C4264B5E610099610B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC2F74C6264B5E610099610B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BC2F74C8264B5E610099610B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BC2F74CA264B5E630099610B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC2F74CD264B5E630099610B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BC2F74D0264B5E630099610B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC2F74D2264B5E630099610B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC2F74DA264B5E830099610B /* Sizes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sizes.swift; sourceTree = "<group>"; };
+		BC2F74DC264B5E830099610B /* LottieController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieController.swift; sourceTree = "<group>"; };
+		BC2F74DE264B5E830099610B /* ColorExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExt.swift; sourceTree = "<group>"; };
+		BC2F74DF264B5E830099610B /* NotificationExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationExt.swift; sourceTree = "<group>"; };
+		BC2F74E1264B5E830099610B /* complete.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = complete.json; sourceTree = "<group>"; };
+		BC2F74E4264B5E830099610B /* LoginButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
+		BC2F74E5264B5E830099610B /* SmallButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallButton.swift; sourceTree = "<group>"; };
+		BC2F74E7264B5E830099610B /* ListBlockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListBlockView.swift; sourceTree = "<group>"; };
+		BC2F74E8264B5E830099610B /* NavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
+		BC2F74EA264B5E830099610B /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		BC2F74EC264B5E830099610B /* HomeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		BC2F74ED264B5E830099610B /* LoginScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		BC2F74EF264B5E830099610B /* UsersViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC2F74BE264B5E610099610B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2F7501264B5F5C0099610B /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC2F74B8264B5E610099610B = {
+			isa = PBXGroup;
+			children = (
+				BC2F74C3264B5E610099610B /* Lottie - Animation */,
+				BC2F74C2264B5E610099610B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC2F74C2264B5E610099610B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC2F74C1264B5E610099610B /* Lottie - Animation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC2F74C3264B5E610099610B /* Lottie - Animation */ = {
+			isa = PBXGroup;
+			children = (
+				BC2F74DB264B5E830099610B /* UIKit */,
+				BC2F74D9264B5E830099610B /* Utils */,
+				BC2F74E9264B5E830099610B /* Model */,
+				BC2F74EE264B5E830099610B /* ViewModel */,
+				BC2F74E2264B5E830099610B /* Views */,
+				BC2F74EB264B5E830099610B /* Screens */,
+				BC2F74C4264B5E610099610B /* AppDelegate.swift */,
+				BC2F74C6264B5E610099610B /* SceneDelegate.swift */,
+				BC2F74C8264B5E610099610B /* ContentView.swift */,
+				BC2F74DD264B5E830099610B /* Extension */,
+				BC2F74E0264B5E830099610B /* Lottie */,
+				BC2F74CA264B5E630099610B /* Assets.xcassets */,
+				BC2F74CF264B5E630099610B /* LaunchScreen.storyboard */,
+				BC2F74D2264B5E630099610B /* Info.plist */,
+				BC2F74CC264B5E630099610B /* Preview Content */,
+			);
+			path = "Lottie - Animation";
+			sourceTree = "<group>";
+		};
+		BC2F74CC264B5E630099610B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BC2F74CD264B5E630099610B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BC2F74D9264B5E830099610B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BC2F74DA264B5E830099610B /* Sizes.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BC2F74DB264B5E830099610B /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				BC2F74DC264B5E830099610B /* LottieController.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		BC2F74DD264B5E830099610B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BC2F74DE264B5E830099610B /* ColorExt.swift */,
+				BC2F74DF264B5E830099610B /* NotificationExt.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		BC2F74E0264B5E830099610B /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				BC2F74E1264B5E830099610B /* complete.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		BC2F74E2264B5E830099610B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BC2F74E3264B5E830099610B /* For Login */,
+				BC2F74E6264B5E830099610B /* For Home */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BC2F74E3264B5E830099610B /* For Login */ = {
+			isa = PBXGroup;
+			children = (
+				BC2F74E4264B5E830099610B /* LoginButton.swift */,
+				BC2F74E5264B5E830099610B /* SmallButton.swift */,
+			);
+			path = "For Login";
+			sourceTree = "<group>";
+		};
+		BC2F74E6264B5E830099610B /* For Home */ = {
+			isa = PBXGroup;
+			children = (
+				BC2F74E7264B5E830099610B /* ListBlockView.swift */,
+				BC2F74E8264B5E830099610B /* NavBar.swift */,
+			);
+			path = "For Home";
+			sourceTree = "<group>";
+		};
+		BC2F74E9264B5E830099610B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC2F74EA264B5E830099610B /* Users.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC2F74EB264B5E830099610B /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				BC2F74EC264B5E830099610B /* HomeScreen.swift */,
+				BC2F74ED264B5E830099610B /* LoginScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		BC2F74EE264B5E830099610B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BC2F74EF264B5E830099610B /* UsersViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC2F74C0264B5E610099610B /* Lottie - Animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC2F74D5264B5E630099610B /* Build configuration list for PBXNativeTarget "Lottie - Animation" */;
+			buildPhases = (
+				BC2F74BD264B5E610099610B /* Sources */,
+				BC2F74BE264B5E610099610B /* Frameworks */,
+				BC2F74BF264B5E610099610B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lottie - Animation";
+			packageProductDependencies = (
+				BC2F7500264B5F5C0099610B /* Lottie */,
+			);
+			productName = "Lottie - Animation";
+			productReference = BC2F74C1264B5E610099610B /* Lottie - Animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC2F74B9264B5E610099610B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					BC2F74C0264B5E610099610B = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = BC2F74BC264B5E610099610B /* Build configuration list for PBXProject "Lottie - Animation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC2F74B8264B5E610099610B;
+			packageReferences = (
+				BC2F74FF264B5F5C0099610B /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = BC2F74C2264B5E610099610B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC2F74C0264B5E610099610B /* Lottie - Animation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC2F74BF264B5E610099610B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2F74D1264B5E630099610B /* LaunchScreen.storyboard in Resources */,
+				BC2F74CE264B5E630099610B /* Preview Assets.xcassets in Resources */,
+				BC2F74F4264B5E830099610B /* complete.json in Resources */,
+				BC2F74CB264B5E630099610B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC2F74BD264B5E610099610B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2F74F0264B5E830099610B /* Sizes.swift in Sources */,
+				BC2F74F5264B5E830099610B /* LoginButton.swift in Sources */,
+				BC2F74F3264B5E830099610B /* NotificationExt.swift in Sources */,
+				BC2F74F6264B5E830099610B /* SmallButton.swift in Sources */,
+				BC2F74FC264B5E830099610B /* UsersViewModel.swift in Sources */,
+				BC2F74F9264B5E830099610B /* Users.swift in Sources */,
+				BC2F74F2264B5E830099610B /* ColorExt.swift in Sources */,
+				BC2F74FA264B5E830099610B /* HomeScreen.swift in Sources */,
+				BC2F74C5264B5E610099610B /* AppDelegate.swift in Sources */,
+				BC2F74C7264B5E610099610B /* SceneDelegate.swift in Sources */,
+				BC2F74F8264B5E830099610B /* NavBar.swift in Sources */,
+				BC2F74F1264B5E830099610B /* LottieController.swift in Sources */,
+				BC2F74FB264B5E830099610B /* LoginScreen.swift in Sources */,
+				BC2F74F7264B5E830099610B /* ListBlockView.swift in Sources */,
+				BC2F74C9264B5E610099610B /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC2F74CF264B5E630099610B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC2F74D0264B5E630099610B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC2F74D3264B5E630099610B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC2F74D4264B5E630099610B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC2F74D6264B5E630099610B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Lottie - Animation/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Lottie - Animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hitarth.Lottie---Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC2F74D7264B5E630099610B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Lottie - Animation/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Lottie - Animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hitarth.Lottie---Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC2F74BC264B5E610099610B /* Build configuration list for PBXProject "Lottie - Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2F74D3264B5E630099610B /* Debug */,
+				BC2F74D4264B5E630099610B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC2F74D5264B5E630099610B /* Build configuration list for PBXNativeTarget "Lottie - Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2F74D6264B5E630099610B /* Debug */,
+				BC2F74D7264B5E630099610B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BC2F74FF264B5F5C0099610B /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BC2F7500264B5F5C0099610B /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BC2F74FF264B5F5C0099610B /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BC2F74B9264B5E610099610B /* Project object */;
+}
